@@ -1,5 +1,5 @@
 /* klasa Punkt */
-public class Punkt {
+//public class Punkt {
     /* stworzyć zmienne prywatne pX, pY, pZ */
 
     /* stworzyć
