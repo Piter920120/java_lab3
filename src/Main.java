@@ -13,6 +13,6 @@ public class Main {
             e) w klasie Main proszę stworzyć objekty podobnie jak w przykładzie 5,
             oraz stworzyć listę typu najbardziej generycznego np. List<Budynek>
          */
-
+// dokladnie dlatego ze puscic branch
     }
 }
