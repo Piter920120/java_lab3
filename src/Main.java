@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -13,6 +16,20 @@ public class Main {
             e) w klasie Main proszę stworzyć objekty podobnie jak w przykładzie 5,
             oraz stworzyć listę typu najbardziej generycznego np. List<Budynek>
          */
-// dokladnie dlatego ze puscic branch
+        Samochod samochod = new Samochod("Honda", "Accord", 2200, 30000);
+        System.out.println(samochod.toString());
+
+        Jeep jeep = new Jeep("Mitsubishi", "Outlander", 1800, 45000, 23);
+        System.out.print(jeep.toString());
+
+        Sportowy sportowy = new Sportowy("Porshe","911", 6000, 35000,2,6);
+        System.out.println(sportowy.toString());
+
+        List<Samochod> listaSamochodow = new ArrayList<>();
+        listaSamochodow.add(samochod);
+        listaSamochodow.add(jeep);
+        listaSamochodow.add(sportowy);
+
+        System.out.println(listaSamochodow);
     }
 }
